@@ -1,5 +1,6 @@
 #include <flipbip_coins.h>
 
+// Bitcoin Only
 // bip44_coin, xprv_version, xpub_version, addr_version, wif_version, addr_format
 const uint32_t COIN_INFO_ARRAY[NUM_COINS][COIN_INFO_SIZE] = {
     {0, 0x0488ade4, 0x0488b21e, 0x00, 0x80, CoinTypeBTC0},
